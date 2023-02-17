@@ -66,6 +66,8 @@ body.dark{
 .wrapper{
     height: 100%;
     background-color: var(--theme-bg);
+    margin: 2.5em;
+    border-radius: 20px;
 }
 
 /* responsive */
@@ -135,7 +137,9 @@ input[type="text"] {
     width: 100%;
     z-index: 100;
     transition: all linear .3s;
+    border-radius: 20px;
 }
+
 #menu:checked ~ .aside{
     left: 0;
 }
