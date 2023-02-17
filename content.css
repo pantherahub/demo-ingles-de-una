@@ -48,6 +48,10 @@ p {
     margin: 1em 0
 }
 
+#packageLicense p {
+    margin: 0;
+}
+
 a {
     color: #771F35
 }

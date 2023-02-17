@@ -66,7 +66,7 @@ body.dark{
 .wrapper{
     height: 100%;
     background-color: var(--theme-bg);
-    margin: 2.5em;
+    margin: 20px 20px 0px 20px;;
     border-radius: 20px;
 }
 
@@ -460,7 +460,6 @@ td{
 @media screen and (min-width: 993px){
     .wrapper{
         display: flex;
-        padding-left: 1rem;
     }
     .aside label,
     nav{
