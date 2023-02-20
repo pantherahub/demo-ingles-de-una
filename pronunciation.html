@@ -115,7 +115,7 @@
                     <li class="aside-item"><a href="true_or_false.html" class="aside-link"><!-- <i>icon</i> --> <span>True or false</span> </a></li>
                     <li class="aside-item"><a href="listening_activity.html" class="aside-link"><!-- <i>icon</i> --> <span>Listening activity</span> </a></li>
                     <li class="aside-item"><a href="choose_the_correct_sentence.html" class="aside-link"><!-- <i>icon</i> --> <span>Choose the correct sentence</span> </a></li>
-                    <li class="aside-item"><a href="read_and_answer.html" class="aside-link"><!-- <i>icon</i> --> <span>read and answer</span> </a></li>
+                    <li class="aside-item"><a href="read_and_answer.html" class="aside-link"><!-- <i>icon</i> --> <span>Read and answer</span> </a></li>
                     <li class="aside-item"><a href="pronunciation.html" class="aside-link active"><!-- <i>icon</i> --> <span>Pronunciation</span> </a></li>
                     <li class="aside-item"><a href="choose_the_correct_answer.html" class="aside-link"><!-- <i>icon</i> --> <span>Choose the correct answer</span> </a></li>
                 </ul>
@@ -282,25 +282,23 @@
 <script>
     let text = ""
     var recognition = new webkitSpeechRecognition();
-        recognition.lang = "en-US";
-        recognition.continuous = false;
-        recognition.interimResults = false;
+    recognition.lang = "en-US";
+    recognition.continuous = true;
+    recognition.interimResults = false;
 
     function record(){
         text = ""
         recognition.start()
     }
 
-    function stop(text2, input){
-        
+    function stop(text2, input){ 
         recognition.stop()
-        
-        console.log("text2: "+text2,
-        'text: '+text,
-        'input: '+input);
 
+        text = text.replace('.', '').toLowerCase()
+        console.log("text2: "+text2,'text: '+text, 'input: '+input);
         document.getElementById(input).value = text;
-        if(text == text2){
+
+        if(text == text2.replace('.', '').toLowerCase()){
             const music = new Audio('https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/win.mp3');
             music.play();
             Swal.fire({

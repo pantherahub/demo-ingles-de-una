@@ -38,7 +38,7 @@ body.dark{
     border-radius: 20px;
 }
 
-*::-webkit-scrollbar { width: 2px; }
+*::-webkit-scrollbar { width: 7px; }
 *::-webkit-scrollbar-track { border-radius: 10px; }
 *::-webkit-scrollbar-thumb { border-radius: 10px; }
 
