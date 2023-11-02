@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/win.css">
+    <script src="assets/js/index.js"></script>
+</head>
+<body class="full-container"  style="background-image: url('../images/template/background-activity-win.jpg')">
+
+    
+    <section id="main">
+        <img style="height: 250px;" src="assets/img/win.svg" alt="">
+        <div style="color: white; font-size: 90px; margin-bottom: 30px; margin: 10px 0 !important;">Score: <span id="score"></span></div>
+        <a href="../index.html" class="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.211 24.826"><defs><style>.d{fill:#fff;fill-rule:evenodd;}</style></defs><g id="a"/><g id="b"><g id="c"><polygon class="d" points="25.223 15.181 25.223 24.826 18.478 24.826 18.478 16.921 11.733 16.921 11.733 24.826 4.988 24.826 4.988 15.181 0 15.181 15.106 0 30.211 15.181 25.223 15.181 25.223 15.181"/></g></g></svg>
+            Home
+        </a>
+    </section>
+
+
+    <script>
+        getAllScore()
+        
+        let modulo = getQueryVariable('modulo')
+        let lesson = getQueryVariable('lesson')
+
+
+        document.getElementById('score').innerHTML = allScore[modulo][lesson]
+
+    </script>
+    
+</body>
+</html>

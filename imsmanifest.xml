@@ -83,23 +83,23 @@
     <file href="exe_html5.js"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource>
-  <resource identifier="RES-eXei_am_doing60c9975c2682d970f76" type="webcontent" adlcp:scormtype="sco" href="start.html"> 
-    <file href="start.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c2682d970f76" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource>
-  <resource identifier="RES-eXei_am_doing60c9975c2682d970f78" type="webcontent" adlcp:scormtype="sco" href="language_function.html"> 
-    <file href="language_function.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c2682d970f78" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
     <file href="common.js"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource>
-  <resource identifier="RES-eXei_am_doing60c9975c2682d970f8a" type="webcontent" adlcp:scormtype="sco" href="review.html"> 
-    <file href="review.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c2682d970f8a" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
     <file href="complete.jpg"/>
     <file href="audio_2.mp3"/>
-    <file href="exe_media.css"/>
+    <file href="./css/./css/exe_media.css"/>
     <file href="exe_media.js"/>
     <file href="exe_media_background.png"/>
     <file href="exe_media_bigplay.png"/>
@@ -111,19 +111,19 @@
     <file href="exe_media_silverlightPlayer.xap"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource>
-  <resource identifier="RES-eXei_am_doing60c9975c2682d970f8c" type="webcontent" adlcp:scormtype="sco" href="do_you_know_the_difference.html"> 
-    <file href="do_you_know_the_difference.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c2682d970f8c" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource>
-  <resource identifier="RES-eXei_am_doing60c9975c2682d970f8e" type="webcontent" adlcp:scormtype="sco" href="listening_practice.html"> 
-    <file href="listening_practice.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c2682d970f8e" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
     <file href="audio_4.mp3"/>
     <file href="choose_4_2.jpg"/>
     <file href="choose_4_3.jpg"/>
     <file href="choose_4_1.jpg"/>
-    <file href="exe_media.css"/>
+    <file href="./css/exe_media.css"/>
     <file href="exe_media.js"/>
     <file href="exe_media_background.png"/>
     <file href="exe_media_bigplay.png"/>
@@ -142,7 +142,7 @@
     <file href="choose_4_3.jpg"/>
     <file href="audio_5.mp3"/>
     <file href="choose_4_1.jpg"/>
-    <file href="exe_media.css"/>
+    <file href="./css/exe_media.css"/>
     <file href="exe_media.js"/>
     <file href="exe_media_background.png"/>
     <file href="exe_media_bigplay.png"/>
@@ -161,7 +161,7 @@
     <file href="audio_6.mp3"/>
     <file href="choose_4_3.jpg"/>
     <file href="choose_4_1.jpg"/>
-    <file href="exe_media.css"/>
+    <file href="./css/exe_media.css"/>
     <file href="exe_media.js"/>
     <file href="exe_media_background.png"/>
     <file href="exe_media_bigplay.png"/>
@@ -173,12 +173,12 @@
     <file href="exe_media_silverlightPlayer.xap"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource> -->
-  <resource identifier="RES-eXei_am_doing60c9975c2682d970f914" type="webcontent" adlcp:scormtype="sco" href="review0.html"> 
-    <file href="review0.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c2682d970f914" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
     <file href="sing_7.jpg"/>
     <file href="audio_7.mp3"/>
-    <file href="exe_media.css"/>
+    <file href="./css/exe_media.css"/>
     <file href="exe_media.js"/>
     <file href="exe_media_background.png"/>
     <file href="exe_media_bigplay.png"/>
@@ -190,19 +190,19 @@
     <file href="exe_media_silverlightPlayer.xap"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource>
-  <resource identifier="RES-eXei_am_doing60c9975c2682d970f916" type="webcontent" adlcp:scormtype="sco" href="do_you_know_the_difference0.html"> 
-    <file href="do_you_know_the_difference0.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c2682d970f916" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource>
-  <resource identifier="RES-eXei_am_doing60c9975c2682d970f918" type="webcontent" adlcp:scormtype="sco" href="listening_practice0.html"> 
-    <file href="listening_practice0.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c2682d970f918" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
     <file href="choose_4_2.jpg"/>
     <file href="audio_9.mp3"/>
     <file href="choose_4_3.jpg"/>
     <file href="choose_4_1.jpg"/>
-    <file href="exe_media.css"/>
+    <file href="./css/exe_media.css"/>
     <file href="exe_media.js"/>
     <file href="exe_media_background.png"/>
     <file href="exe_media_bigplay.png"/>
@@ -214,14 +214,14 @@
     <file href="exe_media_silverlightPlayer.xap"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource>
-  <resource identifier="RES-eXei_am_doing60c9975c2682d970f91a" type="webcontent" adlcp:scormtype="sco" href="listening_practice3.html"> 
-    <file href="listening_practice3.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c2682d970f91a" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
     <file href="choose_4_2.jpg"/>
     <file href="audio_10.mp3"/>
     <file href="choose_4_3.jpg"/>
     <file href="choose_4_1.jpg"/>
-    <file href="exe_media.css"/>
+    <file href="./css/exe_media.css"/>
     <file href="exe_media.js"/>
     <file href="exe_media_background.png"/>
     <file href="exe_media_bigplay.png"/>
@@ -233,14 +233,14 @@
     <file href="exe_media_silverlightPlayer.xap"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource>
-  <resource identifier="RES-eXei_am_doing60c9975c2682d970fa1c" type="webcontent" adlcp:scormtype="sco" href="listening_practice4.html"> 
-    <file href="listening_practice4.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c2682d970fa1c" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
     <file href="choose_4_2.jpg"/>
     <file href="choose_4_1.jpg"/>
     <file href="choose_4_3.jpg"/>
     <file href="audio_11.mp3"/>
-    <file href="exe_media.css"/>
+    <file href="./css/exe_media.css"/>
     <file href="exe_media.js"/>
     <file href="exe_media_background.png"/>
     <file href="exe_media_bigplay.png"/>
@@ -252,20 +252,20 @@
     <file href="exe_media_silverlightPlayer.xap"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource>
-  <resource identifier="RES-eXei_am_doing60c9975c2682d970fa1e" type="webcontent" adlcp:scormtype="sco" href="guess_the_sentence.html"> 
-    <file href="guess_the_sentence.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c2682d970fa1e" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
-    <file href="exe_games.css"/>
+    <file href="./css/exe_games.css"/>
     <file href="exe_games.js"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource>
-  <resource identifier="RES-eXei_am_doing60c9975c268359076e20" type="webcontent" adlcp:scormtype="sco" href="video.html"> 
-    <file href="video.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c268359076e20" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource>
-  <resource identifier="RES-eXei_am_doing60c9975c2682d970fa20" type="webcontent" adlcp:scormtype="sco" href="conjugate_the_verb.html"> 
-    <file href="conjugate_the_verb.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c2682d970fa20" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
     <file href="925o7eHg.jpg"/>
     <file href="928JSOJs.jpg"/>
@@ -278,21 +278,21 @@
     <file href="929IMuD2.jpg"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource>
-  <resource identifier="RES-eXei_am_doing60c9975c2682d970ff22" type="webcontent" adlcp:scormtype="sco" href="true_or_false.html"> 
-    <file href="true_or_false.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c2682d970ff22" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
     <file href="stock-stop.png"/>
     <file href="panel-amusements.png"/>
     <file href="common.js"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource>
-  <resource identifier="RES-eXei_am_doing60c9975c2682d9710124" type="webcontent" adlcp:scormtype="sco" href="listening_activity.html"> 
-    <file href="listening_activity.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c2682d9710124" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
     <file href="932lU4XD.jpg"/>
     <file href="9327mset.mp3"/>
     <file href="common.js"/>
-    <file href="exe_media.css"/>
+    <file href="./css/exe_media.css"/>
     <file href="exe_media.js"/>
     <file href="exe_media_background.png"/>
     <file href="exe_media_bigplay.png"/>
@@ -304,29 +304,29 @@
     <file href="exe_media_silverlightPlayer.xap"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource>
-  <resource identifier="RES-eXei_am_doing60c9975c2682d9710226" type="webcontent" adlcp:scormtype="sco" href="choose_the_correct_sentence.html"> 
-    <file href="choose_the_correct_sentence.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c2682d9710226" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
     <file href="stock-stop.png"/>
     <file href="panel-amusements.png"/>
     <file href="common.js"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource>
-  <resource identifier="RES-eXei_am_doing60c9975c2682d9710328" type="webcontent" adlcp:scormtype="sco" href="read_and_answer.html"> 
-    <file href="read_and_answer.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c2682d9710328" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
     <file href="stock-stop.png"/>
     <file href="panel-amusements.png"/>
     <file href="common.js"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource>
-  <resource identifier="RES-eXei_am_doing60c9975c268359077b2c" type="webcontent" adlcp:scormtype="sco" href="pronunciation.html"> 
-    <file href="pronunciation.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c268359077b2c" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
     <dependency identifierref="COMMON_FILES"/>
   </resource>
-  <resource identifier="RES-eXei_am_doing60c9975c2682d971062a" type="webcontent" adlcp:scormtype="sco" href="choose_the_correct_answer.html"> 
-    <file href="choose_the_correct_answer.html"/> 
+  <resource identifier="RES-eXei_am_doing60c9975c2682d971062a" type="webcontent" adlcp:scormtype="sco" href="index.html"> 
+    <file href="index.html"/> 
     <file href="exe_html5.js"/>
     <file href="undefinedimdbW.jpg"/>
     <file href="undefinedRswDM.jpg"/>
@@ -338,7 +338,7 @@
   </resource>
   <resource identifier="COMMON_FILES" type="webcontent" adlcp:scormtype="asset">
     <file href="config.xml"/>
-    <file href="content.css"/>
+    <file href="./css/content.css"/>
     <file href="icon_agreement.png"/>
     <file href="icon_alert.png"/>
     <file href="icon_arts.png"/>
@@ -377,7 +377,7 @@
     <file href="icon_tool.png"/>
     <file href="icon_wikipedia.png"/>
     <file href="icon_write.png"/>
-    <file href="nav.css"/>
+    <file href="./css/nav.css"/>
     <file href="open-sans-bold.woff"/>
     <file href="open-sans-bold.woff2"/>
     <file href="open-sans.woff"/>
@@ -385,7 +385,7 @@
     <file href="_style_icons.png"/>
     <file href="_style_idevice_header.gif"/>
     <file href="_style_js.js"/>
-    <file href="base.css"/>
+    <file href="./css/base.css"/>
     <file href="popup_bg.gif"/>
     <file href="SCORM_API_wrapper.js"/>
     <file href="SCOFunctions.js"/>

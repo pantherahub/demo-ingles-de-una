@@ -1,0 +1,33 @@
+#container-cards {
+    height: 90%;
+    border-radius: 11px;
+}
+/* Animacion de boton (Se agranda y vuelve a su tamaño original) */
+.animate-button {
+    animation: scale-kid 1s infinite;
+}
+
+@keyframes scale-kid {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    75% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+.bg-image{
+    background-image: url('./assets/img/bg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

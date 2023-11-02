@@ -1,0 +1,56 @@
+#main {
+    width: 100%;
+    min-width: 1200px;
+    text-align: center; 
+}
+.button-home {
+    width: 14%;
+    height: 46px;
+    background-color: #009BDD;
+    font-size: 1.3em;
+    box-shadow: 0 5px #004C6D !important;
+}
+.button-home a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.full-container{
+    background-image: var(--bg-image-body);
+}
+
+img{
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.btn svg{
+    height: 1.2em;
+    margin-right: .5rem;
+}
+
+.btn{
+    background-color: #009BDD;
+    font-size: 1.3em;
+    box-shadow: 0 5px #004c6d !important;
+    padding: .5rem 1rem;
+
+    display: flex;
+    align-items: center;
+    display: inline-block;
+
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    transition: all linear .3s;
+    margin: auto;
+    margin-top: 1rem;
+}
+.btn:active{
+    box-shadow: none;
+    transform: translateY(5px);
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./../../../../assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+
+</head>
+<body id="exe-node-0" class="exe-scorm dark bg-transparent" >
+<div id="outer">
+    <section id="main">
+        <div class="container">
+            <div class="bg-image border-radius p-4 row">
+                <div class="col-12"> 
+                    <div class="d-flex justify-content-between align-items-center p-0">
+                        <button class="btn-action-circle float-start" id="prev" onclick="changeWord('prev')">
+                            <img src="./assets/img/button-back.svg" id="img-prev" alt="" width="100%" />
+                        </button>
+                        
+                        <div id="father-container-cards" class="mx-3">                            
+                            <div id="tooltip" class="alertool">Gira la tarjeta, escucha y repite.</div>
+                            <div class="d-flex">
+                                <div onmouseleave="hidetooltip()" onmouseenter="showtooltip()">
+                                    <img style="margin: 10px" src="./assets/img/tooltip.png" alt="tooltip" width="30px">
+                                </div>
+                                <p class="subtitle-activity mb-2">Flip the card, listen and repeat.</p>
+
+                            </div>
+
+                            <div id="container-cards" class="bg-white cards">
+
+                            </div>
+                        </div>
+    
+                        <button class="btn-action-circle float-end" id="next" onclick="changeWord('next')">
+                            <img src="./assets/img/button-next.svg" id="img-next" alt="next" width="100%" />
+                        </button>
+                    </div>
+    
+                    <div class="text-center mt-3 w-100">
+                        <button class="navigation-buttons-green border-radius" id="btn-flip" onclick="transform()">
+                            <img src="./assets/img/flip-icon.svg" alt="flip_icon" width="100%" />
+                        </button>
+                        
+                        <button id="container-sound" class="btn-sound navigation-buttons-green border-radius"></button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<script src="./assets/js/sweetalert2.min.js"></script>
+<script src="./../../../../assets/js/index.js"></script>
+<script src="./index.js"></script>
+
+</body>
+</html>

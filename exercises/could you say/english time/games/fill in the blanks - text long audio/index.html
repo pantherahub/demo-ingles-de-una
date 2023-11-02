@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./../../../../assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+     
+</head>
+
+<body id="exe-node-0" class="exe-scorm dark bg-transparent">
+    <div id="outer">
+        <section id="main" class="container bg-image p-4 border-radius">
+            
+            <div class="bg-image border-radius">
+                <div class="h-100">                   
+                    
+                    <div class="d-flex justify-content-between align-items-center">
+                        <button class="btn-action-circle" id="prev" onclick="changeWord('prev')">
+                            <img src="./assets/img/button-back-gray.svg" id="img-prev" alt="" width="100%" />
+                        </button>
+
+                        <div class="d-flex flex-column border-radius w-75">
+                            <div id="tooltip" class="alertool">Llena los espacios en blanco.</div>
+                            <div class="d-flex">
+                                <div onmouseleave="hidetooltip()" onmouseenter="showtooltip()">
+                                    <img style="margin: 10px" src="./assets/img/tooltip.png" alt="tooltip" width="30px">
+                                </div>
+                                <p class="subtitle-activity text-start">Fill in the blanks.</p>
+                            </div>
+                            
+                            <div id="father-container-cards" class="mx-3 bg-white w-100 border-radius">                              
+                                <div class="px-5 m-0 h-100">
+                                    <div class="my-2 container-port contenedor-imagen-seleccionada">
+                                        <div class="cross-center flex-column bg-transparent">
+                                            <audio controls id="audio" class="cursor-pointer my-2">
+                                                <source src="" type="audio/mpeg">
+                                                Your browser does not support the audio tag.
+                                            </audio>
+                                        </div>
+                                    </div>
+                                    <div id="container-buttons-roulette" class="w-100">
+                                        
+                                    </div>
+                                </div>                          
+                            </div>
+                        </div>                   
+
+                        <button class="btn-action-circle" id="next" onclick="changeWord('next')">
+                            <img src="./assets/img/button-next.svg" id="img-next" alt="next" width="100%" />
+                        </button>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="./assets/js/sweetalert2.min.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/lodash.min.js"></script>
+    <script src="./../../../../assets/js/index.js"></script>
+    <script src="./index.js"></script>
+  
+</body>
+</html>

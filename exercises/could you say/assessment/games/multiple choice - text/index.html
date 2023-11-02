@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./../../../../assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+
+</head>
+<body id="exe-node-0" class="exe-scorm dark bg-transparent">
+<div id="outer">
+    <section id="main" class="container">
+
+        <div class="p-4 bg-image border-radius">
+            <div class="h-100">
+                <div class="d-flex cross-center">
+                    <button class="btn-action-circle" id="prev" onclick="changeWord('prev')">
+                        <img src="./assets/img/button-back-gray.svg" id="img-prev" alt="" width="100%" />
+                    </button>
+                    <div id="father-container-cards" class="mx-3">
+                        <div id="tooltip" class="alertool">Elige la opción correcta.</div>
+                        <div class="d-flex">
+                            <div onmouseleave="hidetooltip()" onmouseenter="showtooltip()">
+                                <img style="margin: 10px" src="./assets/img/tooltip.png" alt="tooltip" width="30px">
+                            </div>
+                            <p class="subtitle-activity">Choose the correct option.</p>
+                        </div>
+                       
+                        <div class="bg-white cross-center py-3 d-flex flex-column border-radius">
+                            <div class="w-75 mt-3" id="container-cards">
+
+                            </div>
+                        </div>
+                 
+                    </div>
+                    <button class="btn-action-circle" id="next" onclick="changeWord('next')">
+                        <img src="./assets/img/button-next.svg" id="img-next" alt="next" width="100%" />
+                    </button>
+                    
+                </div>
+ 
+            </div>
+        </div>
+    </section>
+</div>
+
+<script src="assets/js/sweetalert2.min.js"></script>
+<script src="./../../../../assets/js/index.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
